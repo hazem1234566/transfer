@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const ORIGIN8CARES_UAT_URL = "https://gateway-private.uat.o8cares.com/federated-gql";
+const ORIGIN8CARES_UAT_URL = "https://gateway-private.prod.o8cares.com/federated-gql";
 const CLIENT_ID = "M7R0ttD3yy9kgjXtHrZBzt47SqnHjex4";
 const CLIENT_SECRET = "nB0-AzEW6aHyiqIiZAchkNEsZcC9gjsIeRVuzjfuYzETAdh3JMeKihny4qG4Sg12";
 
