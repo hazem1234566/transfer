@@ -4,8 +4,8 @@ const app = express();
 app.use(express.json());
 
 const ORIGIN8CARES_UAT_URL = "https://gateway-private.prod.o8cares.com/federated-gql";
-const CLIENT_ID = "M7R0ttD3yy9kgjXtHrZBzt47SqnHjex4";
-const CLIENT_SECRET = "nB0-AzEW6aHyiqIiZAchkNEsZcC9gjsIeRVuzjfuYzETAdh3JMeKihny4qG4Sg12";
+const CLIENT_ID = "DuiW8gU5a47fJjjPBI4ZB03sZZBgAiyy";
+const CLIENT_SECRET = "VnXss4ni2ApYYHZsNrJoEFgfS5K8RJNPqCt6TkqNF9HXZ2hwR6zm3VYslcgzGA3m";
 
 async function getAuthToken() {
     try {
